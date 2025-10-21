@@ -1,0 +1,358 @@
+/* ===== Technical Skills Sections ===== */
+
+/* Main container for both skill displays */
+.skills-section {
+    margin-top: 30px;
+}
+
+/* Collapsible Skill Categories */
+.skill-categories-container {
+    margin-bottom: 30px;
+}
+
+.skill-category {
+    background: var(--border-gradient-onyx);
+    border-radius: 14px;
+    padding: 15px;
+    box-shadow: var(--shadow-1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.skill-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-title {
+    margin: 0;
+    color: var(--white-1);
+    font-size: var(--fs-5);
+    font-weight: var(--fw-500);
+}
+
+.skill-toggle {
+    transition: transform 0.3s ease;
+    color: var(--white-2);
+    font-size: 18px;
+}
+
+.skill-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.skill-list {
+    background: var(--bg-gradient-skill-expand);
+    border-radius: 20px 20px 0 0;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.skill-list li {
+    margin-bottom: 8px;
+    color: var(--white-2);
+    font-size: var(--fs-6);
+}
+
+/* Active state */
+.skill-category.active .skill-toggle {
+    transform: rotate(180deg);
+}
+
+.skill-category.active .skill-content {
+    max-height: 500px;
+    margin-bottom: 30px;
+}
+
+/* Skills Icons Grid */
+.skills-icons-container {
+    margin-top: 20px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 15px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--bg-gradient-skill-expand);
+    border-radius: 14px;
+    padding: 0;
+    justify-content: center;
+    box-shadow: var(--shadow-1);
+    transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: translateY(-15px);
+    box-shadow: var(--shadow-2);
+}
+
+.skill-icon-box {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background: var(--bg-gradient-onyx);*/
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+}
+
+.skill-icon-box2 {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background: var(--bg-gradient-onyx);*/
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Tooltip on hover */
+.skill-icon-box::after,
+.skill-icon-box2::after {
+    content: attr(aria-label);
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--vegas-gold);
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
+
+.skill-icon-box:hover::after,
+.skill-icon-box2:hover::after {
+    opacity: 1;
+}
+
+.skill-icon-box img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.skill-icon-box2 img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.skill-name {
+    text-align: center;
+    font-weight: var(--fw-500);
+    color: var(--white-2);
+    font-size: var(--fs-7);
+    margin: 0;
+}
+/* ===== Project Cards ===== */
+.project-card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100%;
+    background: var(--bg-gradient-onyx);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: var(--shadow-1);
+    transition: all 0.3s ease;
+}
+
+.project-img {
+    position: relative;
+    overflow: hidden;
+    height: 180px;
+    width: 100%;
+    display: block;
+}
+
+.project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+    will-change: transform;
+}
+
+
+.project-card:hover .project-img img {
+    transform: scale(1.08);
+}
+
+
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.project-title {
+    margin: 0 0 10px 0;
+    font-size: var(--fs-5);
+    font-weight: var(--fw-600);
+    color: var(--white-1);
+}
+
+.project-description {
+    flex-grow: 1;
+    margin-bottom: 15px;
+}
+
+/* Project Buttons - Fixed at Bottom */
+.project-buttons {
+    margin-top: auto;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 8px 16px;
+    background: var(--bg-gradient-onyx);
+    color: var(--white-1);
+    border-radius: 6px;
+    font-size: var(--fs-7);
+    font-weight: var(--fw-500);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    min-width: 120px;
+    border: 1px solid var(--jet);
+}
+
+.project-link:hover {
+    background: var(--vegas-gold);
+    color: var(--black);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-2);
+}
+
+.project-link ion-icon {
+    font-size: 16px;
+}
+
+/* Special button styles */
+.project-link.youtube {
+    background: var(--youtube-red);
+    border-color: var(--youtube-red-dark);
+}
+
+.project-link.youtube:hover {
+    background: var(--youtube-red-dark);
+}
+
+.project-link.github {
+    background: var(--github-gray);
+    border-color: var(--github-gray-dark);
+}
+
+.project-link.github:hover {
+    background: var(--github-gray-dark);
+}
+
+/* Project Grid Layout */
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.project-item {
+    height: 100%;
+}
+
+.project-item-icon-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+
+
+/* =====Download cv ===== */
+
+.download-btn-cv {
+    text-decoration: underline;
+    color: darkgoldenrod;
+    padding: 10px 20px;
+    border-radius: 1px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+}
+
+.download-btn-cv:hover {
+    background: var(--white-2);
+// transform: scale(1.03);
+}
+
+/* ===== Responsive Adjustments ===== */
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 15px;
+    }
+
+    .project-list {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .project-buttons {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .project-link {
+        width: 100%;
+    }
+}
