@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Yousaf | Full stack game developer</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/styeSheet.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!--
+  - #MAIN
+-->
+
+<main>
+
+  <!--
+    - #SIDEBAR
+  -->
+
+  <aside class="sidebar" data-sidebar>
+
+    <div class="sidebar-info">
+
+      <figure class="avatar-box">
+        <img src="./assets/images/my-avatar.png" alt="Muhammad Yousaf" width="80">
+      </figure>
+
+      <div class="info-content">
+        <h1 class="name" title="Muhammad Yousaf">Muhammad Yousaf</h1>
+            <p class="service-item-text text">
+              Full Stack Game Developer  Backend Engineer
+            </p>
+
+      </div>
+
+      <button class="info_more-btn" data-sidebar-btn>
+        <span>Show Contacts</span>
+
+        <ion-icon name="chevron-down"></ion-icon>
+      </button>
+
+    </div>
+
+    <div class="sidebar-info_more">
+
+      <div class="separator"></div>
+
+      <ul class="contacts-list">
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="mail-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Email</p>
+
+            <a href="mailto:yousaf4995@gmail.com" class="contact-link">yousaf4995@gmail.com</a>
+          </div>
+
+        </li>
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="phone-portrait-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Phone</p>
+
+            <a href="tel:+923414761516" class="contact-link">+92 341 4761516</a>
+          </div>
+
+        </li>
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="calendar-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Birthday</p>
+
+            <time datetime="1994-11-01">November 1, 1994</time>
+          </div>
+
+        </li>
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="location-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Location</p>
+
+            <address>Lahore, Pakistan</address>
+          </div>
+
+        </li>
+
+      </ul>
+
+      <div class="separator"></div>
+
+      <ul class="social-list">
+
+        <li class="social-item">
+          <a href="https://www.linkedin.com/in/muhammad-yousaf-09332711a" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item">
+          <a href="#" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item">
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </aside>
+
+  <!--
+    - #main-content
+  -->
+
+  <div class="main-content">
+
+    <!--
+      - #NAVBAR
+    -->
+
+    <nav class="navbar">
+
+      <ul class="navbar-list">
+
+        <li class="navbar-item">
+          <button class="navbar-link  active" data-nav-link>About</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Resume</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Portfolio</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Blog</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Contact</button>
+        </li>
+
+      </ul>
+
+    </nav>
+
+    <!--
+      - #ABOUT
+    -->
+
+    <article class="about  active" data-page="about">
+
+      <header>
+        <h2 class="h2 article-title">About me</h2>
+      </header>
+
+      <section class="about-text">
+        <p>
+          I'm a Full Stack Game Developer and Node.js & Web3 Backend Architect with 7+ years of experience in game development and leadership roles.
+        </p>
+
+        <p>
+          I specialize in Unity (PC/Android) development and scalable back-end systems, with expertise in Web3 gaming including wallet integrations,
+          on-chain/off-chain transactions, and metaverse-based P2E titles. My work focuses on creating engaging gameplay experiences with robust
+          backend infrastructure, social media authentication, and secure player profile systems.
+        </p>
+      </section>
+
+      <!--
+        - service
+      -->
+
+      <section class="service">
+
+        <h3 class="h3 service-title">What i'm doing</h3>
+
+        <ul class="service-list">
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-dev.svg" alt="Game development icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Game Development</h4>
+
+              <p class="service-item-text">
+                Professional development of games for multiple platforms including WebGL, Android and iOS.
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-design.svg" alt="Web3 icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Web3 Integration</h4>
+
+              <p class="service-item-text">
+                Blockchain game development with wallet integrations and token economies.
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-app.svg" alt="Backend development icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Backend Systems</h4>
+
+              <p class="service-item-text">
+                Scalable backend infrastructure with Node.js microservices for real-time multiplayer.
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-photo.svg" alt="Team leadership icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Team Leadership</h4>
+
+              <p class="service-item-text">
+                Mentoring developers and leading agile teams to deliver high-quality game features.
+              </p>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </section>
+
+      <!--
+        - testimonials
+      -->
+
+      <section class="technical-skills">
+
+        <h3 class="h3 skills-title">Technical Skills</h3>
+
+        <div class="skills-container">
+
+          <div class="skill-category" data-skill-category>
+            <div class="skill-header">
+              <h4 class="h4 skill-title">Languages & Back-end</h4>
+              <ion-icon name="chevron-down-outline" class="skill-toggle"></ion-icon>
+            </div>
+            <div class="skill-content">
+              <ul class="skill-list">
+                <li>Node.js, JavaScript, TypeScript, Colyseus, Python, LUA, C#</li>
+                <li>Express.js, NestJS(basics), Sentry, .NET Server C#</li>
+                <li>MySQL, PostgreSQL, SQLite, GraphQL, MongoDB, Redis</li>
+                <li>JSON manipulation, REST APIs, WebSockets</li>
+                <li>Web3 Auth, JWT, social media Auth</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="skill-category" data-skill-category>
+            <div class="skill-header">
+              <h4 class="h4 skill-title">Game Systems</h4>
+              <ion-icon name="chevron-down-outline" class="skill-toggle"></ion-icon>
+            </div>
+            <div class="skill-content">
+              <ul class="skill-list">
+                <li>Real-time multiplayer architecture (Mirror)</li>
+                <li>Player profile, Inventory, stats, progression, achievements</li>
+                <li>Game shop systems and in-app purchase validation</li>
+                <li>Leader boards, reward systems, friends systems, party systems</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="skill-category" data-skill-category>
+            <div class="skill-header">
+              <h4 class="h4 skill-title">Blockchain</h4>
+              <ion-icon name="chevron-down-outline" class="skill-toggle"></ion-icon>
+            </div>
+            <div class="skill-content">
+              <ul class="skill-list">
+                <li>Wallet: MetaMask, Phantom, Sulflare</li>
+                <li>On-chain and off-chain transactions</li>
+                <li>Token handling and Web3 smart contract interaction</li>
+                <li>All Social (SSO) and web3 login</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="skill-category" data-skill-category>
+            <div class="skill-header">
+              <h4 class="h4 skill-title">Unity (Client Side)</h4>
+              <ion-icon name="chevron-down-outline" class="skill-toggle"></ion-icon>
+            </div>
+            <div class="skill-content">
+              <ul class="skill-list">
+                <li>Ad-based monetization: AdMob, Unity Ads, Tapad</li>
+                <li>Gameplay programming, AI, multiplayer networking (Mirror, Photon)</li>
+                <li>Asset Bundles, Scriptable Objects, modular design</li>
+                <li>Custom UI systems, skill trees, meta-game features</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!--
+        - testimonials modal
+      -->
+
+      <div class="modal-container" data-modal-container>
+
+        <div class="overlay" data-overlay></div>
+
+        <section class="testimonials-modal">
+
+          <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="modal-img-wrapper">
+            <figure class="modal-avatar-box">
+              <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+            </figure>
+
+            <img src="./assets/images/icon-quote.svg" alt="quote icon">
+          </div>
+
+          <div class="modal-content">
+
+            <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+            <time datetime="2021-06-14">14 June, 2021</time>
+
+            <div data-modal-text>
+              <p>
+                Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                lot of experience
+                and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                consectetur adipiscing
+                elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+              </p>
+            </div>
+
+          </div>
+
+        </section>
+
+      </div>
+
+      <!--
+        - clients
+      -->
+
+      <section class="skills-icons">
+
+        <h3 class="h3 skills-title">Technical Skills</h3>
+
+        <div class="skills-grid">
+
+          <!-- Languages & Back-end -->
+          <div class="skill-item">
+            <div class="skill-icon-box">
+              <img src="./assets/images/skills/nodejs-icon.svg" alt="Node.js" width="40">
+            </div>
+            <div class="skill-content">
+              <h4 class="h4 skill-name">Node.js</h4>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-icon-box">
+              <img src="./assets/images/skills/icon-javascript.svg" alt="JavaScript" width="40">
+            </div>
+            <div class="skill-content">
+              <h4 class="h4 skill-name">JavaScript</h4>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-icon-box">
+              <img src="./assets/images/icon-typescript.svg" alt="TypeScript" width="40">
+            </div>
+            <div class="skill-content">
+              <h4 class="h4 skill-name">TypeScript</h4>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-icon-box">
+              <img src="./assets/images/icon-csharp.svg" alt="C#" width="40">
+            </div>
+            <div class="skill-content">
+              <h4 class="h4 skill-name">C#</h4>
+            </div>
+          </div>
+
+          <!-- Game Development -->
+          <div class="skill-item">
+            <div class="skill-icon-box">
+              <img src="./assets/images/icon-unity.svg" alt="Unity" width="40">
+            </div>
+            <div class="skill-content">
+              <h4 class="h4 skill-name">Unity</h4>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-icon-box">
+              <img src="./assets/images/icon-multiplayer.svg" alt="Multiplayer" width="40">
+            </div>
+            <div class="skill-content">
+              <h4 class="h4 skill-name">Multiplayer</h4>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-icon-box">
+              <img src="./assets/images/icon-game-design.svg" alt="Game Design" width="40">
+            </div>
+            <div class="skill-content">
+              <h4 class="h4 skill-name">Game Design</h4>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-item">
+            <div class="skill-icon-box">
+              <img src="./assets/images/icon-mongodb.svg" alt="MongoDB" width="40">
+            </div>
+            <div class="skill-content">
+              <h4 class="h4 skill-name">MongoDB</h4>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-icon-box">
+              <img src="./assets/images/icon-postgresql.svg" alt="PostgreSQL" width="40">
+            </div>
+            <div class="skill-content">
+              <h4 class="h4 skill-name">PostgreSQL</h4>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-icon-box">
+              <img src="./assets/images/icon-redis.svg" alt="Redis" width="40">
+            </div>
+            <div class="skill-content">
+              <h4 class="h4 skill-name">Redis</h4>
+            </div>
+          </div>
+
+          <!-- Blockchain -->
+          <div class="skill-item">
+            <div class="skill-icon-box">
+              <img src="./assets/images/icon-web3.svg" alt="Web3" width="40">
+            </div>
+            <div class="skill-content">
+              <h4 class="h4 skill-name">Web3</h4>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-icon-box">
+              <img src="./assets/images/icon-blockchain.svg" alt="Blockchain" width="40">
+            </div>
+            <div class="skill-content">
+              <h4 class="h4 skill-name">Blockchain</h4>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-icon-box">
+              <img src="./assets/images/icon-smart-contract.svg" alt="Smart Contracts" width="40">
+            </div>
+            <div class="skill-content">
+              <h4 class="h4 skill-name">Smart Contracts</h4>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+    </article>
+
+    <!--
+      - #RESUME
+    -->
+
+    <article class="resume" data-page="resume">
+
+      <header>
+        <h2 class="h2 article-title">Resume  <a href="assets/files/Full_stack_game_dev_Muhammad_yousaf.pdf" download class="download-btn-cv">
+          Download CV
+        </a></h2>
+      </header>
+      <!-- Download CV Button -->
+<!--      <div style="margin-bottom: 20px; display: flex;  justify-content: flex-end;">-->
+<!--        <a href="assets/files/Full_stack_game_dev_Muhammad_yousaf.pdf" download class="download-btn">-->
+<!--          Download CV-->
+<!--        </a>-->
+<!--      </div>-->
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Education</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Lahore Leads University</h4>
+
+            <span>2020</span>
+
+            <p class="timeline-text">
+              M.Phil in Computer Science<br>
+              GPA: 3.80
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">University of Agriculture</h4>
+
+            <span>2015</span>
+
+            <p class="timeline-text">
+              M.Sc. in Computer Science<br>
+              GPA: 3.30
+            </p>
+
+          </li>
+
+        </ol>
+
+      </section>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Experience</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">CLV Technologies (Salvay)</h4>
+            <p class="timeline-text"><em>Full Stack Game Developer / Team Lead</em></p>
+            <span>Oct 2022 – Present</span>
+
+            <p class="timeline-text">
+              - Architected scalable backend infrastructures using Node.js microservices for real-time multiplayer gameplay<br>
+              - Developed blockchain-integrated metaverse titles with wallet login and token economies<br>
+              - Integrated third-party services with modular APIs<br>
+              - Mentored junior developers and facilitated agile sprint planning
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Machine Dreams Inc. (Mite Studio)</h4>
+            <p class="timeline-text"><em>Senior Game Developer / Team Lead</em></p>
+            <span>Nov 2020 – Sep 2022</span>
+
+            <p class="timeline-text">
+              - Directed full development lifecycle of simulation and open-world games<br>
+              - Enhanced mobile rendering pipelines resulting in 25% FPS increase<br>
+              - Designed modular gameplay frameworks for reuse across titles<br>
+              - Collaborated with design and art teams on interactive systems
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">StepInSolution</h4>
+            <p class="timeline-text"><em>Senior Game Developer</em></p>
+            <span>Jun 2019 – Aug 2020</span>
+
+            <p class="timeline-text">
+              - Developed rapid prototypes and MVPs for concept validation<br>
+              - Built custom animation handlers optimized for mobile<br>
+              - Integrated asset loading via Unity Addressables
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Game District</h4>
+            <p class="timeline-text"><em>Senior Game Developer</em></p>
+            <span>Dec 2017 – Aug 2020</span>
+
+            <p class="timeline-text">
+              - Delivered multiple Unity titles with 1M+ downloads<br>
+              - Implemented monetization (AdMob, Unity Ads)<br>
+              - Improved user retention through reward systems<br>
+              - Enhanced UI/UX in casual mobile games
+            </p>
+
+          </li>
+
+        </ol>
+
+      </section>
+
+      <section class="skill">
+
+        <h3 class="h3 skills-title">My skills</h3>
+
+        <ul class="skills-list content-card">
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Unity Development</h5>
+              <data value="95">95%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 95%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Node.js Backend</h5>
+              <data value="90">90%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Web3 Integration</h5>
+              <data value="85">85%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 85%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Multiplayer Systems</h5>
+              <data value="90">90%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+
+    <!-- Rest of the HTML remains the same -->
+
+    <!--
+      - #PORTFOLIO
+    -->
+
+    <article class="portfolio" data-page="portfolio">
+
+      <header>
+        <h2 class="h2 article-title">Portfolio</h2>
+      </header>
+
+      <section class="projects">
+
+        <ul class="filter-list">
+          <li class="filter-item">
+            <button class="active" data-filter-btn>All</button>
+          </li>
+          <li class="filter-item">
+            <button data-filter-btn>Web3 Games</button>
+          </li>
+          <li class="filter-item">
+            <button data-filter-btn>Mobile Games</button>
+          </li>
+          <li class="filter-item">
+            <button data-filter-btn>Backend Systems</button>
+          </li>
+        </ul>
+
+        <div class="filter-select-box">
+          <button class="filter-select" data-select>
+            <div class="select-value" data-selecct-value>Select category</div>
+            <div class="select-icon">
+              <ion-icon name="chevron-down"></ion-icon>
+            </div>
+          </button>
+          <ul class="select-list">
+            <li class="select-item">
+              <button data-select-item>All</button>
+            </li>
+            <li class="select-item">
+              <button data-select-item>Web3 Games</button>
+            </li>
+            <li class="select-item">
+              <button data-select-item>Mobile Games</button>
+            </li>
+            <li class="select-item">
+              <button data-select-item>Backend Systems</button>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="project-list">
+
+          <!-- MoonKarts -->
+          <li class="project-item active" data-filter-item data-category="web3 games">
+            <div class="project-card">
+              <a href="#" class="project-img-link">
+                <figure class="project-img">
+                  <img src="./assets/images/project-1.jpg" alt="MoonKarts" loading="lazy">
+                  <div class="project-img-overlay">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                </figure>
+              </a>
+
+              <div class="project-content">
+                <h3 class="project-title">MoonKarts</h3>
+                <p class="project-category">WebGL-based multiplayer with wallet login</p>
+                <div class="project-buttons">
+                  <a href="#" class="project-link">View Project</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Crystale -->
+          <li class="project-item active" data-filter-item data-category="web3 games">
+            <div class="project-card">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="Crystale" loading="lazy">
+                </figure>
+              </a>
+
+              <div class="project-info">
+                <h3 class="project-title">Crystale</h3>
+                <p class="project-category">Fantasy PvE strategy game (Epic Games)</p>
+
+                <div class="project-buttons">
+                  <a href="https://www.epicgames.com/store/en-US/p/crystale" target="_blank" class="project-link">
+                    <ion-icon name="open-outline"></ion-icon>
+                    <span>View on Epic</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Gnome Wars -->
+          <li class="project-item active" data-filter-item data-category="web3 games">
+            <div class="project-card">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.jpg" alt="Gnome Wars" loading="lazy">
+                </figure>
+              </a>
+
+              <div class="project-info">
+                <h3 class="project-title">Gnome Wars</h3>
+                <p class="project-category">Web3 PvP game with wallet auth</p>
+
+                <div class="project-buttons">
+                  <a href="https://gnomewars-game.com" target="_blank" class="project-link">
+                    <ion-icon name="play-outline"></ion-icon>
+                    <span>Play Now</span>
+                  </a>
+                  <a href="https://youtube.com/gnomewars-trailer" target="_blank" class="project-link youtube">
+                    <ion-icon name="videocam-outline"></ion-icon>
+                    <span>Trailer</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- HoneyLand -->
+          <li class="project-item active" data-filter-item data-category="mobile games">
+            <div class="project-card">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-4.png" alt="HoneyLand" loading="lazy">
+                </figure>
+              </a>
+
+              <div class="project-info">
+                <h3 class="project-title">HoneyLand</h3>
+                <p class="project-category">P2E mobile game with token economy</p>
+
+                <div class="project-buttons">
+                  <a href="https://play.google.com/store/apps/details?id=com.honeyland.game" target="_blank" class="project-link">
+                    <ion-icon name="logo-google-playstore"></ion-icon>
+                    <span>Download</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Action Games -->
+          <li class="project-item active" data-filter-item data-category="mobile games">
+            <div class="project-card">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-5.png" alt="Action Games" loading="lazy">
+                </figure>
+              </a>
+
+              <div class="project-info">
+                <h3 class="project-title">Action Games</h3>
+                <p class="project-category">Play Store/App-store action games</p>
+
+                <div class="project-buttons">
+                  <a href="https://play.google.com/store/apps/developer?id=YourStudio" target="_blank" class="project-link">
+                    <ion-icon name="open-outline"></ion-icon>
+                    <span>View All</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Stakehouse -->
+          <li class="project-item active" data-filter-item data-category="backend systems">
+            <div class="project-card">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-6.png" alt="Stakehouse" loading="lazy">
+                </figure>
+              </a>
+
+              <div class="project-info">
+                <h3 class="project-title">Stakehouse</h3>
+                <p class="project-category">Web3 staking dApp backend</p>
+
+                <div class="project-buttons">
+                  <a href="https://stakehouse.app" target="_blank" class="project-link">
+                    <ion-icon name="rocket-outline"></ion-icon>
+                    <span>Test Now</span>
+                  </a>
+                  <a href="https://github.com/yourusername/stakehouse-backend" target="_blank" class="project-link github">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <span>Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+    <!-- Rest of the HTML remains the same -->
+
+    <!--
+      - #BLOG
+    -->
+
+    <article class="blog" data-page="blog">
+
+      <header>
+        <h2 class="h2 article-title">Blog</h2>
+      </header>
+
+      <section class="blog-posts">
+
+        <ul class="blog-posts-list">
+
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/blog-1.jpg" alt="Web3 Game Development" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Game Development</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2023-05-15">May 15, 2023</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">Building Web3 Games: Challenges and Solutions</h3>
+
+                <p class="blog-text">
+                  Exploring the technical challenges in developing blockchain-integrated games and how to overcome them.
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/blog-2.jpg" alt="Node.js for Games" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Backend</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2023-04-22">April 22, 2023</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">Scalable Backends for Multiplayer Games with Node.js</h3>
+
+                <p class="blog-text">
+                  How to architect high-performance game servers using Node.js microservices.
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/blog-3.jpg" alt="Mobile Optimization" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Mobile</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2023-03-10">March 10, 2023</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">Optimizing Unity Games for Mobile Devices</h3>
+
+                <p class="blog-text">
+                  Techniques to improve performance and reduce memory usage in mobile games.
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+
+    <!--
+      - #CONTACT
+    -->
+
+    <article class="contact" data-page="contact">
+
+      <header>
+        <h2 class="h2 article-title">Contact</h2>
+      </header>
+
+      <section class="mapbox" data-mapbox>
+        <figure>
+          <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217759.2998034045!2d74.20304099999999!3d31.5203696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1686754321235!5m2!1sen!2s"
+                  width="400" height="300" loading="lazy"></iframe>
+        </figure>
+      </section>
+
+      <section class="contact-form">
+
+        <h3 class="h3 form-title">Contact Form</h3>
+
+        <form action="#" class="form" data-form>
+
+          <div class="input-wrapper">
+            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+            <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+          </div>
+
+          <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+          <button class="form-btn" type="submit" disabled data-form-btn>
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Send Message</span>
+          </button>
+
+        </form>
+
+      </section>
+
+    </article>
+
+  </div>
+
+</main>
+
+<!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
+
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
